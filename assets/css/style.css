@@ -1198,6 +1198,31 @@ header .image-content img {
      object-fit: contain;
 }
 
+.about-us .contain {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-us .contain h1 {
+  color: var(--dark-color);
+  font-size: 20px;
+  font-weight: 900;
+  margin: 0px;
+}
+.about-us .contain p {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 20px 0px;
+}
+.about-us .image-content img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .course-box {
   width: 100%;
   position: relative;
@@ -1876,7 +1901,7 @@ header .image-content img {
 footer {
   width: 100%;
   padding: 60px 0px 20px;
-  background-color: #2A303E;
+  background-color: var(--primary-color);
   position: relative;
   z-index: 9;
 }
